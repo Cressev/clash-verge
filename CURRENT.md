@@ -9,10 +9,8 @@
 - 已初始化本地 git 仓库
 
 下一步：
-1. 写入 handbook 分章文档
-2. 写入 script 目录说明与检查脚本
-3. 补齐 memory 资产
-4. 创建 GitHub 远程并推送
+1. 完成最终收尾写回
+2. 结束 todo block
 
 阻塞：
 - 无

@@ -1,18 +1,15 @@
 # CURRENT
 
-当前任务：初始化 `clash-verge` 的 durable 工作目录，并把 Clash Verge / Feilian / Codex 的网络检修经验整理成 handbook + script + git 仓库。
+当前任务：整理 zphz WiFi 下 Hysteria 不稳定的复现结论，并给出是否能修复的判断。
 
 当前状态：
-- 已确认源会话 `019dc51d-e92a-7910-9762-633b0264debc`
-- 已读完 `tools/codex-tun-feilian-fix`
-- 已读完 `tools/codex-backend-diagnostics`
-- 已初始化本地 git 仓库
-- 正在补一个本地采集脚本，用来在切换 Hysteria 前后收集证据
+- 已拿到三次快照
+- 已确认 Hysteria 在 zphz WiFi 下稳定超时，而 vmess 切回后恢复
+- 正在给出修复边界与建议
 
 下一步：
-1. 写采集脚本
-2. 更新脚本说明和手册索引
-3. 语法检查并试跑
+1. 给出能否修复的判断
+2. 收尾写入日志与任务状态
 
 阻塞：
 - 无

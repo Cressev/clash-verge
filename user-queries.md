@@ -11,3 +11,9 @@ clash verge问题：查看019dc51d-e92a-7910-9762-633b0264debc中的会话内容
 可以，开始吧
 
 [Recieve:26/05/13-17:49:01 CST]
+
+---
+
+能解决吗，在zphz wifi下也能使用hysteria协议的节点
+
+[Recieve:26/05/13-18:44:55 CST]

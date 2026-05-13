@@ -4,6 +4,6 @@
 
 当前文件：
 
-- 暂无
+- `2026-05-13-zphz-wifi-hysteria-udp-path.md`: zphz WiFi 下 Hysteria/UDP 路径不稳定的复盘结论
 
 不要把一次性的工作记录放进来；一次性进展优先写 `log.md`。

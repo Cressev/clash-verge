@@ -7,10 +7,12 @@
 - 已读完 `tools/codex-tun-feilian-fix`
 - 已读完 `tools/codex-backend-diagnostics`
 - 已初始化本地 git 仓库
+- 正在补一个本地采集脚本，用来在切换 Hysteria 前后收集证据
 
 下一步：
-1. 完成最终收尾写回
-2. 结束 todo block
+1. 写采集脚本
+2. 更新脚本说明和手册索引
+3. 语法检查并试跑
 
 阻塞：
 - 无

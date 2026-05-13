@@ -12,6 +12,7 @@
 - `06-subscription-refresh-checklist.md`: 更新订阅后的复查步骤
 - `07-macos-codex-path.md`: macOS 上 Codex / wrapper / 代理探针
 - `08-windows-ssh-path.md`: Windows 上飞连 + Clash Verge + SSH
+- `09-hysteria-wifi-capture.md`: zphz WiFi + Hysteria 的切前/切后采集流程
 
 ## 规则
 

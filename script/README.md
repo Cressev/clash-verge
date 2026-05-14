@@ -9,6 +9,7 @@
 - `codex_wrapper.zsh`: Codex wrapper 模板。
 - `codex_backend_diagnostics.py`: Codex backend 的网络诊断脚本。
 - `capture_hysteria_wifi_state.sh`: zphz WiFi + Hysteria 场景的切前/切后本地快照采集脚本。
+- `codex_relay_compact_node_probe.py`: 逐个切换 Clash selector 节点并重复测试 Codex relay compact 接口。
 
 ## 使用原则
 
@@ -39,3 +40,22 @@
 - `14-dns-config.yaml.txt`
 - `15-service-log-tail.txt`
 - `16-service-log-clues.txt`
+
+## Codex relay compact 节点探针
+
+典型用法：
+
+```bash
+./script/codex_relay_compact_node_probe.py --attempts 3
+```
+
+默认行为：
+
+- 读取 `~/.codex/config.toml` 的当前 provider `base_url`
+- 读取 `~/.codex/auth.json` 或 `OPENAI_API_KEY`
+- 通过 `/tmp/verge/verge-mihomo.sock` 控制 `节点选择`
+- 通过 `http://127.0.0.1:7897` 请求 relay API
+- 每个节点测试 `/v1/responses/compact` 和 `/v1/models`
+- 结束后恢复原始 selector 节点
+
+输出 JSON 默认写到 `/tmp/codex-compact-node-results-*.json`。脚本不会打印 API key。

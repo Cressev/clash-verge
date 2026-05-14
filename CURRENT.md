@@ -1,15 +1,15 @@
 # CURRENT
 
-当前任务：整理 zphz WiFi 下 Hysteria 不稳定的复现结论，并给出是否能修复的判断。
+当前任务：本轮中转 API Codex compact 全节点重复探针已完成。
 
 当前状态：
-- 已拿到三次快照
-- 已确认 Hysteria 在 zphz WiFi 下稳定超时，而 vmess 切回后恢复
-- 正在给出修复边界与建议
+- 已完成 `节点选择` 42 个节点的 3 轮 compact / models 探针
+- 已确认原节点已恢复为 `新加坡-优化-Gemini-GPT`
+- 已把结果写入 finding、script 和任务记忆
 
 下一步：
-1. 给出能否修复的判断
-2. 收尾写入日志与任务状态
+1. 向用户给出推荐节点和规避节点
+2. 后续如节点订阅变化，可用 `script/codex_relay_compact_node_probe.py` 复测
 
 阻塞：
 - 无

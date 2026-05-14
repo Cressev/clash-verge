@@ -37,3 +37,5 @@ clash verge问题：查看019dc51d-e92a-7910-9762-633b0264debc中的会话内容
 不是， 你测啥呢？你我中转站的compact接口干嘛，而且现在我的hysteria协议的节点都是挂的因为连的是zphz wifi，当然不通啊。我要你测在zphz wifi下，除了挂掉的hysteria节点外，其他的节点连接官网compact接口是否稳定，我亲自测试在hystria节点联通的时候他连接官方compact是最稳的，现在问题是hy节点都挂了，所以我想别的还有没有能稳定的
 
 [Recieve:26/05/14-11:18:19 CST]
+
+[Done:26/05/14-11:18:19 CST | 72aec10]

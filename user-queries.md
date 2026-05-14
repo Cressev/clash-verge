@@ -39,3 +39,9 @@ clash verge问题：查看019dc51d-e92a-7910-9762-633b0264debc中的会话内容
 [Recieve:26/05/14-11:18:19 CST]
 
 [Done:26/05/14-11:18:19 CST | 72aec10]
+
+---
+
+但是我亲测新加坡-优化-Gemini-GPT节点经常在compact自动压缩时出错
+
+[Recieve:26/05/14-12:24:24 CST]

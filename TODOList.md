@@ -149,6 +149,34 @@ clash verge问题：查看019dc51d-e92a-7910-9762-633b0264debc中的会话内容
 
 ------ todo-list end at 2026/05/14/11:18:19 -----
 
+------ todo-list begin at 2026/05/14/12:24:24 -----
+
+用户请求：
+但是我亲测新加坡-优化-Gemini-GPT节点经常在compact自动压缩时出错
+
+制定清单：
+- [x] 1. 调整测试模型
+  - [x] 1.1 承认空请求探针不足以代表自动 compact
+  - [x] 1.2 使用 64 KiB compact-like payload
+- [x] 2. 复测候选节点
+  - [x] 2.1 重点复测 `新加坡-优化-Gemini-GPT`
+  - [x] 2.2 复测第一批候选
+  - [x] 2.3 复测第二批候选
+  - [x] 2.4 恢复原 selector 节点
+- [x] 3. 汇总 payload soak 结论
+  - [x] 3.1 复现用户反馈节点失败
+  - [x] 3.2 找到更稳替代节点
+  - [x] 3.3 修正旧 finding 的适用范围
+- [x] 4. 固化结果
+  - [x] 4.1 新增 payload soak finding
+  - [x] 4.2 更新日志与状态
+  - [x] 4.3 提交并推送
+
+执行问题记录：
+- 空 `{}` 请求会误判节点稳定性；真实 compact-like payload 下才暴露 EOF/read timeout。
+
+------ todo-list end at 2026/05/14/12:24:24 -----
+
 ------ todo-list begin at 2026/05/13/18:44:55 -----
 
 用户请求：

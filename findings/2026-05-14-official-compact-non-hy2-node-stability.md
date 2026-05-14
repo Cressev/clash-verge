@@ -1,5 +1,10 @@
 # Official compact node stability on zphz WiFi, excluding HY2
 
+Correction note:
+- The first pass in this file used an empty request body. It is only a lightweight reachability test.
+- User-reported automatic compact failures on `新加坡-优化-Gemini-GPT` were reproduced when testing with a larger compact-like request body.
+- For the more realistic soak result, use `2026-05-14-official-compact-payload-soak.md`.
+
 Date: 2026-05-14
 
 Scope:

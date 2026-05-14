@@ -120,6 +120,35 @@ clash verge问题：查看019dc51d-e92a-7910-9762-633b0264debc中的会话内容
 
 ------ todo-list end at 2026/05/14/10:56:32 -----
 
+------ todo-list begin at 2026/05/14/11:18:19 -----
+
+用户请求：
+不是， 你测啥呢？你我中转站的compact接口干嘛，而且现在我的hysteria协议的节点都是挂的因为连的是zphz wifi，当然不通啊。我要你测在zphz wifi下，除了挂掉的hysteria节点外，其他的节点连接官网compact接口是否稳定，我亲自测试在hystria节点联通的时候他连接官方compact是最稳的，现在问题是hy节点都挂了，所以我想别的还有没有能稳定的
+
+制定清单：
+- [x] 1. 纠正测试目标
+  - [x] 1.1 明确官方 compact URL
+  - [x] 1.2 排除当前必挂 HY2 节点
+  - [x] 1.3 将官方 `401` 视为网络到达
+- [x] 2. 执行官网 compact 多轮探针
+  - [x] 2.1 每个非 HY2 selector 项测试 5 次
+  - [x] 2.2 恢复原 selector 节点
+  - [x] 2.3 保存原始 JSON
+- [x] 3. 汇总真实节点稳定性
+  - [x] 3.1 排除订阅元信息项
+  - [x] 3.2 标出 5/5 且无明显尖峰节点
+  - [x] 3.3 标出有尖峰或失败节点
+- [x] 4. 固化纠正结果
+  - [x] 4.1 给旧 relay finding 加纠正说明
+  - [x] 4.2 新增官网 compact finding
+  - [x] 4.3 更新日志与状态
+  - [x] 4.4 提交并推送
+
+执行问题记录：
+- 前一次测试目标错误：测成了中转站 compact。本轮已改为官网 `https://chatgpt.com/backend-api/codex/responses/compact`。
+
+------ todo-list end at 2026/05/14/11:18:19 -----
+
 ------ todo-list begin at 2026/05/13/18:44:55 -----
 
 用户请求：

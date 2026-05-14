@@ -1,5 +1,10 @@
 # Codex relay compact node stability on zphz WiFi
 
+Correction note:
+- This finding tests the relay API at `www.fhl.mom`, not the official ChatGPT Codex compact endpoint.
+- It is useful only for relay-path diagnosis.
+- For the user's actual question about official compact reachability while excluding currently-broken HY2 nodes, see `2026-05-14-official-compact-non-hy2-node-stability.md`.
+
 Date: 2026-05-14
 
 Scope:

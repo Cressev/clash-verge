@@ -40,3 +40,9 @@
 - 已按用户澄清改为测试中转 API `https://www.fhl.mom`，不再把官方 ChatGPT 401 当作目标问题。
 - 已逐个切换 `节点选择` 的 42 个节点，每个节点对 `/v1/responses/compact` 重复 3 次。
 - 已确认 HY2/Hysteria 类节点在 zphz WiFi 下对 compact 仍是 0/3，近端 TCP/TLS 节点更稳定。
+
+## 阶段 8
+
+- 已按用户纠正切回真正目标：官网 `chatgpt.com/backend-api/codex/responses/compact`。
+- 已排除当前 zphz WiFi 下必挂的 5 个 HY2 节点，对剩余 selector 项做 5 轮官网 compact 探针。
+- 结论：除 `美国USLA-A` 出现一次 TLS handshake timeout 外，多数非 HY2 节点均能 5/5 到达官网 compact；首选看无 4 秒以上尖峰的节点。
